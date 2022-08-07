@@ -1,0 +1,25 @@
+@use 'variables' as vars;
+
+.test-fixture-primary {
+  color: vars.$primary;
+}
+
+.test-fixture-secondary {
+  color: vars.$secondary;
+}
+
+.test-fixture-success {
+  color: vars.$success;
+}
+
+.test-fixture-info {
+  color: vars.$info;
+}
+
+.test-fixture-warning {
+  color: vars.$warning;
+}
+
+.test-fixture-danger {
+  color: vars.$danger;
+}

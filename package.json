@@ -1,0 +1,41 @@
+{
+  "name": "@test-fixtures/scss",
+  "version": "0.0.1",
+  "description": "SCSS test fixture",
+  "keywords": [
+    "test",
+    "fixture",
+    "sass",
+    "scss"
+  ],
+  "license": "ISC",
+  "author": "webdiscus (https://github.com/webdiscus)",
+  "maintainers": [
+    "webdiscus (https://github.com/webdiscus)"
+  ],
+  "homepage": "https://github.com/webdiscus/test-fixtures-scss",
+  "bugs": {
+    "url": "https://github.com/webdiscus/test-fixtures-scss/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdiscus/test-fixtures-scss.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "sass": "src/main.scss",
+  "scripts": {
+    "publish:public": "npm publish --access public"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
