@@ -1,4 +1,6 @@
 @use 'variables' as vars;
+@use 'mixins/comments';
+@include comments.license();
 
 .test-fixture-primary {
   color: vars.$primary;
